@@ -5,4 +5,7 @@ $(document).ready(function(){
     $("#btn2").click(function(){
         $("p").show();
     })
+    $("#btn3").click(function(){
+        $("p").toggle();
+    })
 })
